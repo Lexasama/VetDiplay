@@ -1,0 +1,16 @@
+{
+  "ConnectionStrings": {
+    "VetDisplayDB": "<connection string>"
+  },
+  "JwtBearer": {
+    "SigningKey": "<signing key>",
+    "Audience": "<audience>",
+    "Issuer": "<issuer>"
+  },
+  "Authentication": {
+    
+  },
+  "Spa": {
+    "Host": "<SPA host>"
+  }
+}

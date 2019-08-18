@@ -1,0 +1,10 @@
+create procedure sUserDelete
+(
+    @UserId int
+)
+as
+begin
+    delete from tPasswordUser where UserId = @UserId;
+    delete from tUser where UserId = @UserId;
+    return 0;
+end;
